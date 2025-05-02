@@ -1,6 +1,6 @@
 # go-caller [![Go Reference](https://pkg.go.dev/badge/github.com/newmo-oss/go-caller.svg)](https://pkg.go.dev/github.com/newmo-oss/go-caller)[![Go Report Card](https://goreportcard.com/badge/github.com/newmo-oss/go-caller)](https://goreportcard.com/report/github.com/newmo-oss/go-caller)
 
-go-caller is a library of stack trace.
+`go-caller` is a library for collecting stack traces at the runtime.
 
 ## Usage
 
