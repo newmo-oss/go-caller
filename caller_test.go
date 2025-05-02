@@ -18,8 +18,8 @@ func TestNew(t *testing.T) {
 		stacktrace caller.StackTrace
 		want       string
 	}{
-		"skip 0": {stacktrace: callNew(0), want: "callNew.go:2 github.com/newmo-oss/go-caller_test.callNew"},
-		"skip 1": {stacktrace: wrapCallNew(1), want: "wrapCallNew.go:2 github.com/newmo-oss/go-caller_test.wrapCallNew"},
+		"skip 0":           {stacktrace: callNew(0), want: "callNew.go:2 github.com/newmo-oss/go-caller_test.callNew"},
+		"skip 1":           {stacktrace: wrapCallNew(1), want: "wrapCallNew.go:2 github.com/newmo-oss/go-caller_test.wrapCallNew"},
 		"skip 0 - wrapped": {stacktrace: wrapCallNew(0), want: "callNew.go:2 github.com/newmo-oss/go-caller_test.callNew"},
 	}
 
